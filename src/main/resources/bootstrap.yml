@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: account
+  profiles.active: dev
+
+---
+spring:
+  profiles: dev
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+---
+spring:
+  profiles: svt
+  cloud:
+    config:
+      uri: http://yuuyoo-config:8888
+---
+spring:
+  profiles: pro
+  cloud:
+    config:
+      uri: http://yuuyoo-config:8888

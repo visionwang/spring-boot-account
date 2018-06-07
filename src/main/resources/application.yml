@@ -1,0 +1,15 @@
+security:
+  oauth2:
+    client:
+      client-id: yuuyoo
+      client-secret: yuuyoo
+  basic:
+    enabled: true
+spring:
+  security:
+    user:
+      name: dave
+      password: 123456
+
+
+
